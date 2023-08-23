@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     public GameObject winPanel;
     public GameObject losePanel;
     public GameObject hardcorePanel;
+    public GameObject hardcoreButton;
 
 
     int invaderCount;
@@ -59,6 +60,7 @@ public class PlayerMovement : MonoBehaviour
         Cursor.visible = true;
         if (PlayerPrefs.GetInt("Hardcore") == 1)
         {
+            hardcoreButton.SetActive(false);
             Debug.Log("Beat Hardcore");
             hardcorePanel.SetActive(true);
         }

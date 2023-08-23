@@ -1450,6 +1450,7 @@ MonoBehaviour:
   winPanel: {fileID: 2140621190}
   losePanel: {fileID: 898853884}
   hardcorePanel: {fileID: 2072176844}
+  hardcoreButton: {fileID: 423420572}
 --- !u!61 &863633309
 BoxCollider2D:
   m_ObjectHideFlags: 0
