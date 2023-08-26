@@ -1214,7 +1214,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Jair Invaders
+  m_Text: Chico Invaders
 --- !u!222 &1356425795
 CanvasRenderer:
   m_ObjectHideFlags: 0
